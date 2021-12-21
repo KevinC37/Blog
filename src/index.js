@@ -54,7 +54,7 @@ ReactDOM.render(
               <Route path="*" element={<NotFound />} />
               <Route path="/signup" element={<SignUp />} />
               <Route path="/login" element={<LogIn />} />
-              <Route exact path="/" element={<Blogposts />} />
+              <Route exact path="/blog" element={<Blogposts />} />
               <Route exact path="/about" element={<AboutPage />} />
               <Route exact path="/contact" element={<ContactPage />} />
               <Route path="/posts/:slug" element={<Blogpost />} />

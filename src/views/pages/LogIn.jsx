@@ -31,7 +31,7 @@ function LogIn() {
   function onSubmit() {
     store.dispatch({ type: 'USER/LOGIN' });
     setSubmitStatus(true);
-    redirectTimer = setTimeout(() => redirect('/'), 2000);
+    redirectTimer = setTimeout(() => redirect('/blog'), 2000);
   }
 
   return (

@@ -32,7 +32,7 @@ function Navbar() {
       <CssBaseline />
       <Toolbar>
         <Typography href="#" variant="h4" className={classes.logo}>
-          <Link to="/" className={classes.logoLink}>
+          <Link to="/blog" className={classes.logoLink}>
             Terranet
           </Link>
         </Typography>
