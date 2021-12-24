@@ -1,0 +1,1 @@
+{"version":3,"sources":["views/pages/404.jsx"],"names":["NotFound"],"mappings":"+FAAA,+DAEe,SAASA,IACtB,OAAO","file":"static/js/12.b258297a.chunk.js","sourcesContent":["import React from 'react';\r\n\r\nexport default function NotFound() {\r\n  return <div>Page not found! :(</div>;\r\n}\r\n"],"sourceRoot":""}
